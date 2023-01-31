@@ -63,6 +63,7 @@ public class Main {
         }
 
     }
+
     public static void task5() {
         System.out.println("Задача 5");
         int age = 8;
@@ -77,6 +78,7 @@ public class Main {
             System.out.println("Если возраст ребенка равен " + age + " то ему можно кататься на аттракционе без сопровождении взрослого");
         }
     }
+
     public static void task6() {
         System.out.println("Задача 6");
         int sitting = 50;
@@ -95,7 +97,34 @@ public class Main {
             System.out.println("Стоячие места закончились");
         }
     }
+
     public static void task7() {
         System.out.println("Задача 7");
+        int one = 5;
+        int two = -4;
+        int three = 7;
+        if (one > two) {
+            if (one >= three) {
+                System.out.println("Максимальное число - " + one);
+            } else if (three > one) {
+                System.out.println("Максимальное число - " + three);
+            }
+        } else if (two > one) {
+            if (two >= three) {
+                System.out.println("Максимальное число - " + two);
+            } else if (three > two) {
+                System.out.println("Максимальное число - " + three);
+            }
+        } else {
+            if (one > three) {
+                System.out.println("Максимальное число - " + one);
+            } else if (three > one) {
+                System.out.println("Максимальное число - " + three);
+            } else {
+                System.out.println("Все 3 числа равны");
+            }
+        }
+
+
     }
 }
