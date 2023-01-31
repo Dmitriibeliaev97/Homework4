@@ -37,6 +37,7 @@ public class Main {
             System.out.println("Если скорость " + speed + ", то придется заплатить штраф");
         } else {
             System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
+
         }
     }
 
