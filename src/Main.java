@@ -79,6 +79,21 @@ public class Main {
     }
     public static void task6() {
         System.out.println("Задача 6");
+        int sitting = 50;
+        int standing = 4;
+        int allCapacity = 102;
+        int allSitting = 60;
+        int allStanding = allCapacity - allSitting;
+        if (sitting < allSitting) {
+            System.out.println("В вагоне " + (allSitting - sitting) + " свободных сидячих мест");
+        } else {
+            System.out.println("Сидячие места закончились");
+        }
+        if (standing < allStanding) {
+            System.out.println("В вагоне " + (allStanding - standing) + " свободных стоячих мест");
+        } else {
+            System.out.println("Стоячие места закончились");
+        }
     }
     public static void task7() {
         System.out.println("Задача 7");
